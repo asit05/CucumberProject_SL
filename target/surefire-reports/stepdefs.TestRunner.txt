@@ -1,0 +1,141 @@
+-------------------------------------------------------------------------------
+Test set: stepdefs.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 71.86 s <<< FAILURE! -- in stepdefs.TestRunner
+This feature will validate the login scenario of Simplilearn.com.Validate the login failure scenario -- Time elapsed: 17.29 s <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="btn_login" name="btn_login" type="hidden"> could not be scrolled into view
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [050fdc8b-7098-40ae-b266-e2ce210a9514, clickElement {id=4af86f5f-0511-4147-875c-586925bdb0fa}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.2, moz:accessibilityChecks: false, moz:buildID: 20240819150008, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 61900, moz:profile: /var/folders/4z/44gg19n553v..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (050fdc8b-7098-40ae-b266-e2ce210a9514)] -> name: btn_login]
+Session ID: 050fdc8b-7098-40ae-b266-e2ce210a9514
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at stepdefs.LoginStepDefs.i_click_on_the_login_button(LoginStepDefs.java:53)
+	at ✽.I click on the login button(file:///Users/asitkaran/eclipse-workspace/CucumberProject/src/test/java/features/SimplilearnLogin.feature:9)
+
+This feature will validate the login scenario of Simplilearn.com.Validate the Login failure scenario using parameters -- Time elapsed: 11.96 s <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="btn_login" name="btn_login" type="hidden"> could not be scrolled into view
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a255fb4e-6488-4482-984b-6b3c4d0ff3a2, clickElement {id=71247e9e-7069-4c50-9514-712edec683bc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.2, moz:accessibilityChecks: false, moz:buildID: 20240819150008, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 61965, moz:profile: /var/folders/4z/44gg19n553v..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (a255fb4e-6488-4482-984b-6b3c4d0ff3a2)] -> name: btn_login]
+Session ID: a255fb4e-6488-4482-984b-6b3c4d0ff3a2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at stepdefs.LoginStepDefs.i_click_on_the_login_button(LoginStepDefs.java:53)
+	at ✽.I click on the login button(file:///Users/asitkaran/eclipse-workspace/CucumberProject/src/test/java/features/SimplilearnLogin.feature:18)
+
+This feature will validate the login scenario of Simplilearn.com.Validate the Login failure scenario with scenario outline -- Time elapsed: 10.85 s <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="btn_login" name="btn_login" type="hidden"> could not be scrolled into view
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9cfcc6a0-78be-44a0-a6a7-0b1b98df64ed, clickElement {id=44214602-784c-4d04-99cb-4eea68b3f6c3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.2, moz:accessibilityChecks: false, moz:buildID: 20240819150008, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 62032, moz:profile: /var/folders/4z/44gg19n553v..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (9cfcc6a0-78be-44a0-a6a7-0b1b98df64ed)] -> name: btn_login]
+Session ID: 9cfcc6a0-78be-44a0-a6a7-0b1b98df64ed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at stepdefs.LoginStepDefs.i_click_on_the_login_button(LoginStepDefs.java:53)
+	at ✽.I click on the login button(file:///Users/asitkaran/eclipse-workspace/CucumberProject/src/test/java/features/SimplilearnLogin.feature:26)
+
+This feature will validate the login scenario of Simplilearn.com.Validate the Login failure scenario with scenario outline -- Time elapsed: 10.82 s <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="btn_login" name="btn_login" type="hidden"> could not be scrolled into view
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ce7ddb0-b5cd-4d31-b37c-913ec2a249bf, clickElement {id=f4417a0b-59de-40e0-88a8-a04f02117e13}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.2, moz:accessibilityChecks: false, moz:buildID: 20240819150008, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 62099, moz:profile: /var/folders/4z/44gg19n553v..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (9ce7ddb0-b5cd-4d31-b37c-913ec2a249bf)] -> name: btn_login]
+Session ID: 9ce7ddb0-b5cd-4d31-b37c-913ec2a249bf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at stepdefs.LoginStepDefs.i_click_on_the_login_button(LoginStepDefs.java:53)
+	at ✽.I click on the login button(file:///Users/asitkaran/eclipse-workspace/CucumberProject/src/test/java/features/SimplilearnLogin.feature:26)
+
+This feature will validate the login scenario of Simplilearn.com.Validate the different login options present on the login screen -- Time elapsed: 20.52 s <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //span[text()='Google']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f78d0898-8f10-4e66-9580-cd1fb14db415, findElement {using=xpath, value=//span[text()='Google']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.2, moz:accessibilityChecks: false, moz:buildID: 20240819150008, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 62166, moz:profile: /var/folders/4z/44gg19n553v..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: f78d0898-8f10-4e66-9580-cd1fb14db415
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at stepdefs.LoginStepDefs.i_see_the_below_login_options_present_on_the_screen(LoginStepDefs.java:84)
+	at ✽.I see the below login options present on the screen(file:///Users/asitkaran/eclipse-workspace/CucumberProject/src/test/java/features/SimplilearnLogin.feature:38)
+

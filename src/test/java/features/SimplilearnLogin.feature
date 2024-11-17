@@ -1,3 +1,4 @@
+@Simplilearn
 Feature: This feature will validate the login scenario of Simplilearn.com
 
   Scenario: Validate the login failure scenario
