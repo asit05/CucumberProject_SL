@@ -1,0 +1,34 @@
+pipeline {
+    agent any
+
+    tools {
+        // Install the Maven version configured as "M3" and add it to the path.
+        maven "M3"
+    }
+
+    stages {
+        stage('Checkout Source Code') {
+            steps {
+                // Get some code from a GitHub repository
+                git 'https://github.com/asit05/CucumberProject_SL.git'
+            }
+        }
+        
+        stage('Run Test') {
+            steps {
+                // Run Maven on a Unix agent.
+                sh "mvn clean test -Dcucumber.filter.tags=@${tagName}"
+
+                // To run Maven on a Windows agent, use
+                //bat "mvn clean test -Dsurefire.suiteXmlFiles=sanity.xml -DBrowser=%Browser%"
+            }
+            
+             post {
+                always {
+                    cucumber '**/cucumber.json'
+                }
+            }
+
+        }
+    }
+}
